@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Supermarket-Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="links">
+        <a href="index.html">Homepage</a>
+        <a href="groceries.html">Groceries</a>
+        <a href="fruitsAndVegetables.html">Fruits & Vegetables</a>
+       <!-- <a href="dairy.html">Dairy Products</a>
+        <a href="personalGrooming.html">Personal Care</a>-->
+    </nav>
+
+    <div class="feedbackIntro">
+            <h1>We hear you!!!</h1>
+            <p>Let us know what you think of us in the below form</p>
+        </div>
+
+    <form class="feedbackForm">
+
+            <label for="email">Email Id:</label>
+            <input type="email" name="email" />
+
+            <br />
+
+            <label for="customerService">Are we being good to you?</label>
+            <input type="radio" name="customerService" value="impressed" />I am impressed
+            <input type="radio" name="customerService" value="satisfactory" />I have seen this before
+            <input type="radio" name="customerService" value="disappointed" />I am disappointed
+
+            <br />
+
+            <label for="productAvailability">Did you get everything you needed?</label>
+            <input type="radio" name="productAvailability" value="impressed" />I am impressed
+            <input type="radio" name="productAvailability" value="satisfactory" />I have seen this before
+            <input type="radio" name="productAvailability" value="disappointed" />I am disappointed
+            <br />
+
+            <label for="productQuality">Did you like what you bought?</label>
+            <input type="radio" name="productQuality" value="impressed" />I am impressed
+            <input type="radio" name="productQuality" value="satisfactory" />I have seen this before
+            <input type="radio" name="productQuality" value="disappointed" />I am disappointed
+            <br />
+
+            <label for="suggestions">Have an suggestions or improvements for us?</label>
+            <textarea name="suggestions"></textarea>
+            <br />
+            
+            <input type="submit" value="Submit Our Report Card"/>
+
+        </form>
+
+    <style>
+        .feedbackForm{
+            border:solid;
+            display: inline-block;
+            padding: 5px;
+            margin:0 20px;
+            font-size: 20px;
+        }
+
+        input[type="submit"]{
+            background: #ffc600;
+            border: 0;
+            
+        }
+
+        
+    </style>
+
+</body>
+</html>
