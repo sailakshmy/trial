@@ -1,11 +1,11 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import CustomTextInput from './components/customTextInput';//This is for adding ref to DOM element
-import AutoFocusTextInput from './components/AutoFocusTextInput'; //This is for adding ref to Class Component
-import CustomTextInputCallbackRef from './components/CustomTextInputCallbackRef';//This is for callback refs
-import ParentRef from './components/ParentRef'; //This is for ref callbacks between components
-import TextInputWithFocusButton from './components/TextInputWithFocusButton';//This is for useRef hook
+import CustomTextInput from './components/refs/customTextInput';//This is for adding ref to DOM element
+import AutoFocusTextInput from './components/refs/AutoFocusTextInput'; //This is for adding ref to Class Component
+import CustomTextInputCallbackRef from './components/refs/CustomTextInputCallbackRef';//This is for callback refs
+import ParentRef from './components/refs/ParentRef'; //This is for ref callbacks between components
+import TextInputWithFocusButton from './components/refs/TextInputWithFocusButton';//This is for useRef hook
 import Button from './components/button/Button'; //This is for Jest and React Testing Libraries
 function App() {
   return (
